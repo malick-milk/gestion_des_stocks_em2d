@@ -1,0 +1,88 @@
+   :root {
+            --deep-coffee:  #2B1E17;
+            --burnt-orange: #E4572E;
+            --muted-sand:   #E8D8C3;
+            --soft-ivory:   #FBF6EE;
+        }
+        body {
+            background-color: var(--soft-ivory);
+            font-family: 'Segoe UI', sans-serif;
+        }
+        /* ── NAVBAR ── */
+        .navbar {
+            background-color: var(--deep-coffee) !important;
+        }
+        .navbar-brand {
+            color: var(--burnt-orange) !important;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+        .nav-link {
+            color: var(--muted-sand) !important;
+            font-weight: 500;
+        }
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--burnt-orange) !important;
+        }
+        /* ── SIDEBAR ── */
+        .sidebar {
+            background-color: var(--deep-coffee);
+            min-height: 100vh;
+            padding-top: 20px;
+        }
+
+        .sidebar .nav-link {
+            color: var(--muted-sand) !important;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 2px 10px;
+        }
+
+        .sidebar .nav-link:hover,
+        .sidebar .nav-link.active {
+            background-color: var(--burnt-orange);
+            color: var(--soft-ivory) !important;
+        }
+
+        .sidebar .nav-link i {
+            margin-right: 8px;
+        }
+
+        /* ── CONTENU ── */
+        .main-content {
+            padding: 30px;
+        }
+
+        /* ── BOUTONS ── */
+        .btn-primary {
+            background-color: var(--burnt-orange);
+            border-color: var(--burnt-orange);
+            color: var(--soft-ivory);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--deep-coffee);
+            border-color: var(--deep-coffee);
+        }
+
+        /* ── CARDS ── */
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(43,30,23,0.1);
+            background-color: #fff;
+        }
+
+        .card-header {
+            background-color: var(--deep-coffee);
+            color: var(--soft-ivory);
+            border-radius: 12px 12px 0 0 !important;
+            font-weight: 600;
+        }
+
+        /* ── TABLEAU ── */
+        .table thead {
+            background-color: var(--muted-sand);
+            color: var(--deep-coffee);
+        }
